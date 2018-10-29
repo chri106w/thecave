@@ -1,0 +1,350 @@
+body {
+    background-color: white;
+}
+
+#game_background {
+    background-image: url("baggrund.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    z-index: 0;
+    position: absolute;
+    top: 0;
+}
+
+
+#game_forground2 {
+    background-image: url("roede%20stalagmitter.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+}
+
+
+/*sten*/
+
+#rødsten {
+    background-image: url(r%C3%B8d%20sten.svg);
+    background-size: 15vw;
+    width: 10vw;
+    height: 14vw;
+    z-index: 3;
+    position: absolute;
+    top: 23vw;
+    right: 0vw;
+}
+
+#grønsten {
+    background-image: url("gr%C3%B8n%20sten.svg");
+    background-size: 14vw;
+    width: 14vw;
+    height: 14vw;
+    z-index: 3;
+    position: absolute;
+    top: 33vw;
+    left: 35vw;
+}
+
+#gulsten {
+    background-image: url("gul%20sten.svg");
+    background-size: 16vw;
+    width: 16vw;
+    height: 11vw;
+    z-index: 3;
+    position: absolute;
+    top: 30vw;
+    left: 7vw;
+}
+
+
+#forgrundssten {
+    background-image: url("forgrunds%20sten.svg");
+    background-size: 28vw;
+    width: 28vw;
+    height: 15vw;
+    z-index: 3;
+    position: absolute;
+    top: 41.5vw;
+    left: 1.5vw;
+}
+
+#orangesten {
+    background-image: url(orange%20sten.svg);
+    background-size: 20vw;
+    width: 20vw;
+    height: 8vw;
+    z-index: 3;
+    position: absolute;
+    top: 40vw;
+    right: 0vw;
+}
+
+#lillastalagmitter {
+    background-image: url("lilla%20stalagmitter.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    z-index: 3;
+    position: absolute;
+    top: 0;
+    left: 3vw;
+}
+
+/*kryb*/
+
+#edderkop {
+    background-image: url(edderkop.svg);
+    background-size: 10vw;
+    width: 10vw;
+    height: 11vw;
+    z-index: 2;
+    position: absolute;
+    top: 26vw;
+    right: 0vw;
+
+}
+
+#skorpion {
+    background-image: url("skorpion.svg");
+    background-size: 10vw;
+    width: 10vw;
+    height: 11vw;
+    z-index: 2;
+    position: absolute;
+    top: 30vw;
+    left: 6vw;
+}
+
+#slange {
+    background-image: url("slange.svg");
+    background-size: 13vw;
+    width: 12vw;
+    height: 14vw;
+    z-index: 2;
+    position: absolute;
+    top: 43vw;
+    left: 3vw;
+}
+
+/*krystaller*/
+
+#fladkrystal {
+    background-image: url(flad%20krystal.svg);
+    background-size: 13vw;
+    width: 13vw;
+    height: 11vw;
+    z-index: 2;
+    position: absolute;
+    top: 36vw;
+    right: 0vw;
+}
+
+#spidskrystal {
+    background-image: url("spids%20krystal.svg");
+    background-size: 11vw;
+    width: 11vw;
+    height: 11vw;
+    z-index: 2;
+    position: absolute;
+    top: 35vw;
+    left: 36vw;
+
+}
+
+#rundkrystal {
+    background-image: url("rund%20krystal.svg");
+    background-size: 13vw;
+    width: 13vw;
+    height: 13vw;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 7vw;
+
+}
+
+/*UI*/
+
+#uibackground {
+    background-image: url("sort%20baggrund.svg");
+    background-size: cover;
+    width: 15vw;
+    height: 56.25vw;
+    z-index: 4;
+    position: absolute;
+    top: 0;
+    left: 1vw;
+}
+
+#spidspoint {
+    background-image: url("spids%20krystal.svg");
+    background-size: cover;
+    width: 6vw;
+    height: 6vw;
+    z-index: 5;
+    position: absolute;
+    top: 35vw;
+    left: 1vw;
+
+}
+
+#fladpoint {
+    background-image: url("flad%20krystal.svg");
+    background-size: cover;
+    width: 8vw;
+    height: 8vw;
+    z-index: 5;
+    position: absolute;
+    top: 37vw;
+    left: 4vw;
+
+}
+
+#rundpoint {
+    background-image: url("rund%20krystal.svg");
+    background-size: cover;
+    width: 7vw;
+    height: 7vw;
+    z-index: 5;
+    position: absolute;
+    top: 33vw;
+    left: 8vw;
+
+}
+
+#energy {
+    background-image: url("to%20stjerner.svg");
+    background-size: cover;
+    width: 12vw;
+    height: 20vw;
+    z-index: 4;
+    position: absolute;
+    top: 13vw;
+    left: 2vw;
+}
+
+#time {
+    background-image: url("helt%20ur.svg");
+    background-size: cover;
+    width: 8.5vw;
+    height: 8vw;
+    z-index: 4;
+    position: absolute;
+    top: 3vw;
+    left: 4vw;
+}
+
+#settings {
+    background-image: url("tandhjul.svg");
+    background-size: cover;
+    width: 8.5vw;
+    height: 8.5vw;
+    z-index: 4;
+    position: absolute;
+    top: 45vw;
+    left: 4vw;
+
+}
+
+/*andet*/
+
+
+
+#story {
+    background-image: url("introduktion.svg");
+    background-size: cover;
+    width: 40vw;
+    height: 40vw;
+    z-index: 4;
+    position: absolute;
+    top: 10vw;
+    left: 35vw;
+ display: none;
+
+}
+
+#luk {
+    background-image: url("luk.svg");
+    background-size: cover;
+    width: 4vw;
+    height: 4vw;
+    z-index: 5;
+    position: absolute;
+    top: 14vw;
+    left: 52vw;
+   display: none;
+}
+
+#start {
+    background-image: url("startskaerm.svg");
+    background-size: cover;
+    width: 100vw;
+    height: 56.25vw;
+    z-index: 5;
+    position: absolute;
+    top: 0;
+   display: none;
+}
+
+#play {
+    background-image: url("start.svg");
+    background-size: cover;
+    width: 10vw;
+    height: 12vw;
+    z-index: 5;
+    position: absolute;
+    top: 24vw;
+    left: 48vw;
+  display: none;
+}
+
+#gameover {
+    background-image: url("settings%20win%20loose.svg");
+    background-size: cover;
+    width: 40vw;
+    height: 40vw;
+    z-index: 5;
+    position: absolute;
+    top: 10vw;
+    left: 35vw;
+   display: none;
+}
+
+#loose {
+    background-image: url("doed.svg");
+    background-size: cover;
+    width: 12vw;
+    height: 20vw;
+    z-index: 5;
+    position: absolute;
+    top: 19vw;
+    left: 52vw;
+    display: none;
+}
+
+#win {
+    background-image: url("vundet.svg");
+    background-size: cover;
+    width: 12vw;
+    height: 20vw;
+    z-index: 5;
+    position: absolute;
+    top: 19vw;
+    left: 52vw;
+  display: none;
+}
+
+#replay {
+    background-image: url("replay.svg");
+    background-size: cover;
+    width: 15vw;
+    height: 15vw;
+    z-index: 5;
+    position: absolute;
+    top: 21vw;
+    left: 50vw;
+    display: none;
+}
